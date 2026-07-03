@@ -2,6 +2,16 @@
 
 A full-stack web application for managing users with **NestJS** (backend) and **React** (frontend). The backend proxies requests to [JSONPlaceholder](https://jsonplaceholder.typicode.com/) while maintaining an in-memory store so CRUD operations persist during the session.
 
+## Live Demo
+
+| | URL |
+|---|---|
+| **Frontend** | https://user-management-dashboard-fci2.vercel.app |
+| **Backend API** | https://user-management-api-nfrr.onrender.com |
+| **GitHub** | https://github.com/ShikharNegi0515/User-Management-Dashboard |
+
+Production URLs are configured in `frontend/src/config.ts` and `backend/src/config.ts`.
+
 ## Features
 
 - **View** users with ID, First Name, Last Name, Email, and Department
